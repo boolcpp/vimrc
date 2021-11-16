@@ -1,9 +1,16 @@
 "plugins
 call plug#begin()
-Plug 'tpope/vim-sensible'
+"Plug 'tpope/vim-sensible'
+
+"colorcheme
+Plug 'morhetz/gruvbox'
+"light status line
+Plug 'itchyny/lightline.vim'
+
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end()
+
 
 "tabs
 set expandtab
@@ -12,6 +19,10 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
+"colorcheme
+colorscheme gruvbox
+set background=dark
+let g:gruvbox_contrast_dark='soft'
 
 "line numbers
 set number
