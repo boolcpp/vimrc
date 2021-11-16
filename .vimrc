@@ -6,7 +6,8 @@ call plug#begin()
 Plug 'morhetz/gruvbox'
 "light status line
 Plug 'itchyny/lightline.vim'
-
+"auto complete
+Plug 'ycm-core/YouCompleteMe'
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end()
@@ -23,6 +24,7 @@ set shiftwidth=2
 colorscheme gruvbox
 set background=dark
 let g:gruvbox_contrast_dark='soft'
+set laststatus=2 "for lightline
 
 "line numbers
 set number
