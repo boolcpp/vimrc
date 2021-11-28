@@ -12,7 +12,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 for work with YouCompleteMe:
 1. Vim >= 8.1
 2. sudo pacman -S base-devel python clang llvm
-  or sudo apt install build-essential python3-dev llvm-defaults
+  or sudo apt install build-essential python3-dev llvm
 3. Add ycm rep to plugin list - Plug 'ycm-core/YouCompleteMe'
 4. in .vimrc - :source ~/.vimrc
 5. :PlugInstall
