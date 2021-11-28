@@ -18,5 +18,5 @@ for work with YouCompleteMe:
 5. :PlugInstall
 6. cd ~/.vim/plugged/YouCompleteMe
 7. git submodule update --init --recursive
-8. python3 install.py --clang-completer
+8. python3 install.py --clangd-completer
  
